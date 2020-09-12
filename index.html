@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Number Guessing Game</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="quiz.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+		    <h1 class="col-sm-11 text-center">Addition Quiz</h1>
+		</div>
+		<div class="col-sm-11 text-left" id="quiz">
+			<span>1. What is sum of 1 + 1?</span>
+			<form>
+  				<input type="radio" id="two" name="answer" value="2">
+ 			    <label for="two">2</label>
+ 				<br>
+                <input type="radio" id="eleven" name="answer" value="11">
+                <label for="eleven">11</label>
+			</form>
+			<p id="result"></p>
+			<button onclick="answerOne()">submit</button>
+			<br>
+			<br>
+			<span>2. What is sum of 10 + 10?</span>
+			<form>
+  				<input type="radio" id="twentytwo" name="answer" value="22">
+ 			    <label for="twentytwo">22</label>
+ 				<br>
+                <input type="radio" id="twenty" name="answer" value="20">
+                <label for="twenty">20</label>
+			</form>
+			<p id="resultTwo"></p>
+			<button onclick="answerTwo()">submit</button>
+			<br>
+			<br>
+			<span>3. What is sum of 4 + 4?</span>
+			<form>
+  				<input type="radio" id="six" name="answer" value="6">
+ 			    <label for="six">6</label>
+ 				<br>
+                <input type="radio" id="eight" name="answer" value="8">
+                <label for="eight">8</label>
+			</form>
+			<p id="resultThree"></p>
+			<button onclick="answerThree()">submit</button>
+			<br>
+			<br>
+			<span>4. What is sum of 2 + 2?</span>
+			<form>
+  				<input type="radio" id="four" name="answer" value="4">
+ 			    <label for="four">4</label>
+ 				<br>
+                <input type="radio" id="zero" name="answer" value="0">
+                <label for="zero">0</label>
+			</form>
+			<p id="resultFour"></p>
+			<button onclick="answerFour()">submit</button>
+			<br>
+			<br>
+			<span>5. What is sum of 3 + 2?</span>
+			<form>
+  				<input type="radio" id="five" name="answer" value="5">
+ 			    <label for="five">5</label>
+ 				<br>
+                <input type="radio" id="seven" name="answer" value="7">
+                <label for="seven">7</label>
+			</form>
+			<p id="resultFive"></p>
+			<button onclick="answerFive()">submit</button>
+			<br>
+			<br>
+		</div>
+        <div class="col-sm-11 text-left">
+        	
+		</div>
+	</div>
+
+</body>
+</html>
